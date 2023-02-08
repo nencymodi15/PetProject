@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <script type="text/javascript" src="Script/jquery-3.6.1.js" ></script>
+        <script type="text/javascript" src="Script/jquery-3.6.1.min.js" ></script>
+        <script type="text/javascript" src="Script/script1.js" ></script>
+        <meta charset="utf-8" />
+        <title>Caption Keeper</title>
+    </head>
+    <body>
+        <section class="addQoutes">
+            <form action="" method="" id="form" >
+                <div>
+                    <label class="Main-label">Add Qoutes</label>
+                </div>
+                <div>
+                    <textarea rows="5" cols="50" class="text-Box" id="qoutessel">
+                    </textarea>
+                </div>
+                <label>Choose Category</label>
+                <div>
+                    <input type="radio" value="love" id="love" name="qoutecat">
+                    <label for="love">love</label>
+                </div>
+                <div>
+                    <input type="radio" value="Morning" id="Morning" name="qoutecat">
+                    <label for="Morning">Morning</label>
+                </div>
+                <div>
+                    <input type="radio" value="Aniversary" id="Aniversary" name="qoutecat">
+                    <label for="Aniversary">Aniversary</label>
+                </div>
+                <div>
+                    <input type="radio" value="Holidays" id="Holidays" name="qoutecat"> 
+                    <label for="Holidays">Holidays</label>
+                </div>
+                <div>
+                    <input type="radio" value="other" id="other" name="qoutecat"> 
+                    <label for="other">other</label>
+                </div>
+                <div>
+                    <input type="submit" value="Add Qoutes" id="submit" class="button">
+                </div>
+            </form>
+        </section>
+        <section class="tabsection">
+            <div class="tab-btn">
+                <button class="tabs" id="l-ove">Love</button>
+                <button class="tabs" id="M-orning">Morning</button>
+                <button class="tabs" id="A-niversary">Aniversary</button>
+                <button class="tabs" id="H-olidays">Holidays</button>
+                <button class="tabs" id="o-ther">other</button> 
+            </div>
+            <ul class="love" id="love">
+            </ul>
+            <ul class="Morning diable" id="Morning">
+            </ul>
+            <ul class="Aniversary diable" id="Aniversary">
+            </ul>
+            <ul class="Holidays diable" id="Holidays">
+            </ul>
+            <ul class="other diable" id="other">
+            </ul>
+            <div class="category diable" id="cat">
+            </div>
+        </section>
+        
+    </body>
+</html>

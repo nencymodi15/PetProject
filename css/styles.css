@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;500&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;500&family=Josefin+Sans:wght@600&display=swap');
+body{
+    background-image: url("../Images/mainImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.addQoutes{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+#legend{
+    color: aqua;
+}
+.Main-label{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 24px;
+    color: aqua;
+    margin-bottom: 1em;
+}
+.text-Box{
+    color: #ff0054;
+    border: 0.5px dotted aqua;
+}
+.radios{
+    color: #ff0054;
+    border: 0.5px dotted aqua;
+}
+.button{
+    margin-left: 40%;
+    padding: 1em;
+    margin-top: 1em;
+    background: aqua;
+    font-family: "Josefin Sans",sans-serif;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+}
+.tabsection{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+.tab-btn{
+    background-color: #b388eb;
+}
+.tabs{
+    font-family: "Chivo Mono";
+    padding: 3em;
+    border-radius: 0px 10px 0px 0px;
+    background-color: #b388eb;
+    color: #ffe5ec;
+    border: none;
+    margin: 0%;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: inherit;
+
+}
+.tabs:last-child{
+    border-radius: 10px 0px 0px 0px;
+}
+section{
+    margin: 0px;
+}
+.activetab{
+    box-shadow: #fdc5f5;
+    background-color: #f7aef8;
+}
+.activebox{
+    display: block;
+}
+.love,
+.Morning,
+.Aniversary,
+.Holidays,
+.other{
+    list-style-type: none;
+    margin: 0%;
+    background-color: #f7aef8;
+    color: black;
+}
+#cat{
+    display: none;
+}
+.disable{
+    display: none;
+}
+.active{
+    display: block;
+    list-style-type: none;
+    margin: 0%;
+    background-color: #f7aef8;
+    color: black;
+}
+
+.qoutes.active#love{
+    display: block;
+}
